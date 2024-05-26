@@ -1,5 +1,13 @@
 {
-  "dependencies": {
-    "discord.js": "^14.15.2"
-  }
+    "name": "coin_collector",
+    "version": "1.0.0",
+    "description": "Collect coins.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js"
+    },
+    "dependencies": {
+        "discord.js": "^14.15.2",
+        "express": "^4.19.2"
+    }
 }

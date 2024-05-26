@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const startBot = require("./startBot.js");
+const startBot = require("../startBot.js");
 
 app.get("/", (req, res) => {
     startBot();

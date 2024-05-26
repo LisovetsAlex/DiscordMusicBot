@@ -69,6 +69,4 @@ function startBot() {
     });
 }
 
-module.exports = {
-    startBot,
-};
+module.exports = { startBot };
